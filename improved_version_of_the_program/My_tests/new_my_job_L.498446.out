@@ -1,0 +1,95 @@
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 498446: <#BSUB -n 3;#BSUB -W 00:30;#BSUB -o new_my_job_L.%J.out;#BSUB -e new_my_job_L.%J.err;#BSUB -R "span[hosts=1]";OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 3;#BSUB -W 00:30;#BSUB -o new_my_job_L.%J.out;#BSUB -e new_my_job_L.%J.err;#BSUB -R "span[hosts=1]";OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=16 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=8 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=4 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=2 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main;OMP_NUM_THREADS=1 ./main> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-324-03> in cluster <MSUCluster> at Sun Dec  1 22:12:52 2019
+Job was executed on host(s) <3*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-324-03> in cluster <MSUCluster> at Sun Dec  1 22:12:53 2019
+</home_edu/edu-cmc-skpod19-324/edu-cmc-skpod19-324-03> was used as the home directory.
+</home_edu/edu-cmc-skpod19-324/edu-cmc-skpod19-324-03> was used as the working directory.
+Started at Sun Dec  1 22:12:53 2019
+Terminated at Sun Dec  1 22:13:22 2019
+Results reported at Sun Dec  1 22:13:22 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 3
+#BSUB -W 00:30
+#BSUB -o new_my_job_L.%J.out
+#BSUB -e new_my_job_L.%J.err
+#BSUB -R "span[hosts=1]"
+OMP_NUM_THREADS=16 ./main
+OMP_NUM_THREADS=16 ./main
+OMP_NUM_THREADS=16 ./main
+OMP_NUM_THREADS=16 ./main
+OMP_NUM_THREADS=16 ./main
+OMP_NUM_THREADS=8 ./main
+OMP_NUM_THREADS=8 ./main
+OMP_NUM_THREADS=8 ./main
+OMP_NUM_THREADS=8 ./main
+OMP_NUM_THREADS=8 ./main
+OMP_NUM_THREADS=4 ./main
+OMP_NUM_THREADS=4 ./main
+OMP_NUM_THREADS=4 ./main
+OMP_NUM_THREADS=4 ./main
+OMP_NUM_THREADS=4 ./main
+OMP_NUM_THREADS=2 ./main
+OMP_NUM_THREADS=2 ./main
+OMP_NUM_THREADS=2 ./main
+OMP_NUM_THREADS=2 ./main
+OMP_NUM_THREADS=2 ./main
+OMP_NUM_THREADS=1 ./main
+OMP_NUM_THREADS=1 ./main
+OMP_NUM_THREADS=1 ./main
+OMP_NUM_THREADS=1 ./main
+OMP_NUM_THREADS=1 ./main
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   89.96 sec.
+    Max Memory :                                 21 MB
+    Average Memory :                             16.17 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                20
+    Run time :                                   29 sec.
+    Turnaround time :                            30 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.416381
+Time in seconds = 0.473907
+Time in seconds = 0.432088
+Time in seconds = 0.387943
+Time in seconds = 0.418065
+Time in seconds = 0.452829
+Time in seconds = 0.373319
+Time in seconds = 0.443985
+Time in seconds = 0.498429
+Time in seconds = 0.383636
+Time in seconds = 0.675860
+Time in seconds = 0.675892
+Time in seconds = 0.675832
+Time in seconds = 0.676879
+Time in seconds = 0.711673
+Time in seconds = 1.266681
+Time in seconds = 1.264621
+Time in seconds = 1.263484
+Time in seconds = 1.264368
+Time in seconds = 1.265188
+Time in seconds = 2.594648
+Time in seconds = 2.588837
+Time in seconds = 2.600600
+Time in seconds = 2.607656
+Time in seconds = 2.585288
+
+
+PS:
+
+Read file <new_my_job_L.498446.err> for stderr output of this job.
+

@@ -1,0 +1,67 @@
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 498443: <#BSUB -n 20;#BSUB -W 0:15;#BSUB -o new_my_job_L.%J.out;#BSUB -e new_my_job_L.%J.err;#BSUB -R "span[hosts=1]";OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main> in cluster <MSUCluster> Done
+
+Job <#BSUB -n 20;#BSUB -W 0:15;#BSUB -o new_my_job_L.%J.out;#BSUB -e new_my_job_L.%J.err;#BSUB -R "span[hosts=1]";OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=128 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main;OMP_NUM_THREADS=160 ./main> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-324-03> in cluster <MSUCluster> at Sun Dec  1 22:12:43 2019
+Job was executed on host(s) <20*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-324-03> in cluster <MSUCluster> at Sun Dec  1 22:12:43 2019
+</home_edu/edu-cmc-skpod19-324/edu-cmc-skpod19-324-03> was used as the home directory.
+</home_edu/edu-cmc-skpod19-324/edu-cmc-skpod19-324-03> was used as the working directory.
+Started at Sun Dec  1 22:12:43 2019
+Terminated at Sun Dec  1 22:12:51 2019
+Results reported at Sun Dec  1 22:12:51 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 20
+#BSUB -W 0:15
+#BSUB -o new_my_job_L.%J.out
+#BSUB -e new_my_job_L.%J.err
+#BSUB -R "span[hosts=1]"
+OMP_NUM_THREADS=128 ./main
+OMP_NUM_THREADS=128 ./main
+OMP_NUM_THREADS=128 ./main
+OMP_NUM_THREADS=128 ./main
+OMP_NUM_THREADS=128 ./main
+OMP_NUM_THREADS=160 ./main
+OMP_NUM_THREADS=160 ./main
+OMP_NUM_THREADS=160 ./main
+OMP_NUM_THREADS=160 ./main
+OMP_NUM_THREADS=160 ./main
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   576.34 sec.
+    Max Memory :                                 35 MB
+    Average Memory :                             23.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                132
+    Run time :                                   9 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.711975
+Time in seconds = 0.657998
+Time in seconds = 0.537900
+Time in seconds = 0.666431
+Time in seconds = 0.720218
+Time in seconds = 0.898665
+Time in seconds = 0.836529
+Time in seconds = 0.735684
+Time in seconds = 0.753177
+Time in seconds = 0.765831
+
+
+PS:
+
+Read file <new_my_job_L.498443.err> for stderr output of this job.
+
